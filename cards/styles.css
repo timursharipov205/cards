@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    transform: perspective(500px) rotateX(25deg);
+    align-items: flex-end;
+    justify-content: center;
+}
+.card{
+background-image: url("https://deckofcardsapi.com/static/img/back.png");
+height: 314px;
+width: 314px;
+background-repeat: no-repeat;
+}
+@keyframes card_animation {
+    50%{transform:  scale(0, 1)}
+    100% {transform: scale(1, 1)}
+}
+
+
+
